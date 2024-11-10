@@ -84,7 +84,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: fixed;
+    position: static;
     width: 100%;
     bottom: 0;
 }
@@ -130,7 +130,10 @@ footer {
 }
 
 .FirefoxLogoStyling {
-    width:  250px;
+    width: 250px;
+    text-align: left !important;
+    display: block;
+    padding-left: 30px;
 }
 
 .VerticalPadding {
@@ -139,7 +142,8 @@ footer {
 }
 
 table {
-    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
@@ -151,4 +155,59 @@ td:first-child {
 td:last-child {
     text-align: right;
     width: 50%;
+}
+
+.MozillaFont {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 50px !important;
+    text-align: left !important;
+    line-height: 1.15 !important;
+    padding-left: 30px;
+}
+
+.button {
+    width: 200px;
+    background-color: #0060DF;
+    border: none;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    white-space: normal;
+    overflow: hidden;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.button:hover {
+    background-color: #0250BB;
+    transition: 0.1s;
+}
+
+.ImageGap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.TextBelowDownloadButton {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 12px !important;
+    display: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.TextBelowDownloadButton:hover {
+    text-decoration: underline;
 }

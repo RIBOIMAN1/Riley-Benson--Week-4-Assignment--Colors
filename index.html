@@ -6,6 +6,8 @@
     <title>Firefox Inspired Design</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="https://www.mozilla.org/media/img/favicons/firefox/browser/favicon.f093404c0135.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 <body>
     <header>
@@ -28,18 +30,19 @@
         <table>
             <thead>
                 <tr>
-                    <th><img src="images/FirefoxLogo.png" alt="Firefox Logo" class="FirefoxLogoStyling"><p>Download Mozilla Firefox for Windows</p></th>
-                    <th><img src="images/HomePageSilhouette.svg"></th>
+                    <th>
+                        <img src="images/FirefoxLogo.png" alt="Firefox Logo" class="FirefoxLogoStyling">
+                        <p class="MozillaFont">Download Mozilla Firefox for Windows</p>
+                        <input type="submit" value="Download Now" class="button" onclick="event.preventDefault(); alert('Thanks for choosing Firefox!');">
+                        <p class="TextBelowDownloadButton">Firefox Privacy Notice</p>
+                        <p class="TextBelowDownloadButton">Download a different platform or language</p>
+                        <p class="TextBelowDownloadButton">Need help?</p>
+                    </th>
+                    <th>
+                        <img src="images/HomePageSilhouette.svg" alt="Firefox Home Page">
+                    </th>                    
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>Row 1, Cell 1</td>
-                </tr>
-                <tr>
-                    <td>Row 2, Cell 1</td>
-                </tr>
-            </tbody>
         </table>
     </div>
     <footer>
