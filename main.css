@@ -30,7 +30,10 @@ header a, nav a {
     text-decoration: none;
     display: inline-block;
     padding: 0px 16px;
+    font-family: 'Inter', sans-serif !important;
 }
+
+
 
 header a:hover, nav a:hover {
     background-color: #ddd;
@@ -51,16 +54,6 @@ main {
 
 main h2 {
     color: black;
-}
-
-footer {
-    background-color: #333;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 .content {
@@ -87,6 +80,7 @@ footer {
     position: static;
     width: 100%;
     bottom: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .small-logo {
@@ -136,6 +130,12 @@ footer {
     padding-left: 30px;
 }
 
+.IcefoxLogoStyling {
+    width: 150px;
+    text-align: left !important;
+    display: block;
+}
+
 .VerticalPadding {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -163,6 +163,25 @@ td:last-child {
     text-align: left !important;
     line-height: 1.15 !important;
     padding-left: 30px;
+    color: rgb(32, 18, 58) !important;
+}
+
+.IcefoxForDesktop {
+    color: rgb(32, 18, 58) !important;
+    font-weight: bold !important;
+    padding-right: 200px;
+    font-family: 'Inter', sans-serif;
+}
+
+.MozillaFontTripleColumn {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 24px !important;
+    color: rgb(32, 18, 58) !important;
+}
+
+.InterFontTripleColumn {
+    font-family: 'Inter', sans-serif;
+    color: rgb(66, 66, 90) !important;
 }
 
 .button {
@@ -206,8 +225,32 @@ td:last-child {
     display: flex;
     margin-left: 30px;
     padding-top: 10px;
+    color: rgb(66, 66, 90) !important;
 }
 
 .TextBelowDownloadButton:hover {
     text-decoration: underline;
+}
+
+.TripleColumn {
+    width: calc(100% / 3) !important;
+    text-align: center !important;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.TripleColumnImage {
+    display: block;
+    margin: 0 auto 10px;
+    width: 96px;
+}
+
+.FooterLinks {
+    color: #00BFFF;
+    text-decoration: underline !important;
+}
+
+.FooterLinks:hover {
+    color: cyan;
 }
