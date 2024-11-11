@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-}
+} /* Sets base styling for body with white background, Arial font, and no margin or padding */
 
 header {
     display: flex;
@@ -13,17 +13,17 @@ header {
     color: black;
     padding: 1rem;
     padding-left: 100px;
-}
+} /* Styles header with flex layout, white background, and padding for spacing */
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
     color: black;
-}
+} /* Styles header title with no margin, large font size, and black color */
 
 header a {
     font-weight: bold;
-}
+} /* Makes header links bold */
 
 header a, nav a {
     color: black;
@@ -31,14 +31,12 @@ header a, nav a {
     display: inline-block;
     padding: 0px 16px;
     font-family: 'Inter', sans-serif !important;
-}
-
-
+} /* Styles header and nav links with black color, no underline, padding, and Inter font */
 
 header a:hover, nav a:hover {
     background-color: #ddd;
     color: black;
-}
+} /* Adds background color change on hover for header and nav links */
 
 nav {
     background-color: #F9F9FA;
@@ -46,31 +44,31 @@ nav {
     display: flex;
     justify-content: center;
     padding: 1rem;
-}
+} /* Styles nav with centered flex layout, light background, and padding */
 
 main {
     padding: 20px;
-}
+} /* Adds padding to main content area */
 
 main h2 {
     color: black;
-}
+} /* Sets black color for h2 in main content */
 
 .content {
     padding: 2rem;
     text-align: center;
-}
+} /* Adds padding and centers text for content area */
 
 .content h1 {
     font-size: 2rem;
     color: black;
-}
+} /* Styles h1 in content area with larger font and black color */
 
 .content p {
     font-size: 1rem;
     line-height: 1.5;
     color: black;
-}
+} /* Sets font size, line height, and color for paragraphs in content */
 
 footer {
     background-color: black;
@@ -81,81 +79,81 @@ footer {
     width: 100%;
     bottom: 0;
     font-family: 'Inter', sans-serif;
-}
+} /* Styles footer with black background, white text, centered alignment, and full width */
 
 .small-logo {
     height: 32px;
-    width:  112px;
-}
+    width: 112px;
+} /* Sets size for small logo */
 
 .os-header {
     background-color: #f9f9f9;
     padding: 10px 0;
     border-bottom: 1px solid #e0e0e0;
-}
-  
+} /* Adds background color, padding, and bottom border to os-header */
+
 .os-links {
     list-style: none;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
-}
-  
+} /* Removes list styling and centers os-links with flex layout */
+
 .os-links li {
     margin: 0 15px;
-}
-  
+} /* Adds horizontal spacing between os-links items */
+
 .os-links a {
     text-decoration: none;
     color: #333;
-}
-  
+} /* Styles os-links with no underline and dark text color */
+
 .os-links a:hover {
     text-decoration: underline;
-}
+} /* Adds underline on hover for os-links */
 
 .bold {
     font-weight: bold;
-}
+} /* Applies bold font weight */
 
 .LeftAlign {
     text-align: left;
-}
+} /* Aligns text to the left */
 
 .FirefoxLogoStyling {
     width: 250px;
     text-align: left !important;
     display: block;
     padding-left: 30px;
-}
+} /* Styles Firefox logo with width, left alignment, and padding */
 
 .IcefoxLogoStyling {
     width: 150px;
     text-align: left !important;
     display: block;
-}
+} /* Styles Icefox logo with width and left alignment */
 
 .VerticalPadding {
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} /* Adds vertical padding */
 
 table {
     max-width: 1500px;
     margin: 0 auto;
     border-collapse: collapse;
-}
+} /* Sets maximum width and centers table with collapsed borders */
 
 td:first-child {
     text-align: left;
     width: 50%;
-}
+} /* Aligns text left and sets width for first table cell */
 
 td:last-child {
     text-align: right;
     width: 50%;
-}
+} /* Aligns text right and sets width for last table cell */
 
 .MozillaFont {
     font-family: 'Metropolis', sans-serif;
@@ -164,25 +162,25 @@ td:last-child {
     line-height: 1.15 !important;
     padding-left: 30px;
     color: rgb(32, 18, 58) !important;
-}
+} /* Styles Mozilla font with large size, specific color, and left alignment */
 
 .IcefoxForDesktop {
     color: rgb(32, 18, 58) !important;
     font-weight: bold !important;
     padding-right: 200px;
     font-family: 'Inter', sans-serif;
-}
+} /* Styles Icefox text with bold font, color, and right padding */
 
 .MozillaFontTripleColumn {
     font-family: 'Metropolis', sans-serif;
     font-size: 24px !important;
     color: rgb(32, 18, 58) !important;
-}
+} /* Sets font and color for Mozilla text in triple column */
 
 .InterFontTripleColumn {
     font-family: 'Inter', sans-serif;
     color: rgb(66, 66, 90) !important;
-}
+} /* Sets font and color for Inter text in triple column */
 
 .button {
     width: 200px;
@@ -203,20 +201,19 @@ td:last-child {
     font-family: 'Metropolis', sans-serif;
     font-weight: bold;
     display: flex;
-
-}
+} /* Styles button with blue background, white text, padding, and rounded corners */
 
 .button:hover {
     background-color: #0250BB;
     transition: 0.1s;
-}
+} /* Changes button background on hover with quick transition */
 
 .ImageGap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-}
+} /* Aligns and spaces images horizontally with bottom padding */
 
 .TextBelowDownloadButton {
     font-family: 'Inter', sans-serif;
@@ -226,11 +223,11 @@ td:last-child {
     margin-left: 30px;
     padding-top: 10px;
     color: rgb(66, 66, 90) !important;
-}
+} /* Styles text below download button with font, color, and padding */
 
 .TextBelowDownloadButton:hover {
     text-decoration: underline;
-}
+} /* Adds underline on hover for text below download button */
 
 .TripleColumn {
     width: calc(100% / 3) !important;
@@ -238,19 +235,19 @@ td:last-child {
     vertical-align: top;
     padding-left: 30px;
     padding-right: 30px;
-}
+} /* Sets width and centers text for triple column layout */
 
 .TripleColumnImage {
     display: block;
     margin: 0 auto 10px;
     width: 96px;
-}
+} /* Centers and sizes images in triple column */
 
 .FooterLinks {
     color: #00BFFF;
     text-decoration: underline !important;
-}
+} /* Styles footer links with underline and sky-blue color */
 
 .FooterLinks:hover {
     color: cyan;
-}
+} /* Changes footer link color to cyan on hover */
